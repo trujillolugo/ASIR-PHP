@@ -2,6 +2,10 @@
 
 * * *
 
+## CODIGO DE HTML 
+
+-----------------------------------
+
 ``` <pre><code> <!doctype html>
 <html lang="es">
 	<head>
@@ -32,3 +36,36 @@
 	</form>
 	</body>
   </html> </code></pre> ```
+  
+  ## CÓDIGO DE PHP
+  
+  --------------------------------------------------
+  
+  ```
+  <?php
+	$operando1 = $_POST['operando1'];
+	$operando2 = $_POST['operando2'];
+	$operador = $_POST['operador'];
+	
+	if($operador == "+"){
+		$solucion = $operando1 + $operando2;
+		echo "La solución es: ". $solucion;
+	}else if($operador == "-"){
+		$solucion = $operando1 - $operando2;
+		echo "La solución es: ". $solucion;
+	}else if($operador == "*"){
+		$solucion = $operando1 * $operando2;
+		echo "La solución es: ". $solucion;
+	}else if($operador == "/"){
+		$solucion = $operando1 / $operando2;
+		echo "La solución es: ". $solucion;
+	}
+	
+
+	if ($operando1 < $operando2) {
+	echo $operando1 . " es menor que " . $operando2;
+	}else {
+	echo $operando1 . " NO es menor que " . $operando2;
+	}
+?>
+```
