@@ -31,7 +31,8 @@ function concatenar ($texto1,$texto2)
 echo concatenar ("Hola"," que tal");
 
 ?>
-``` </pre></code>
+
+-------------------------------------------------
 
 ``` <pre><code> <?php
 
