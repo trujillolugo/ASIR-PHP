@@ -2,7 +2,8 @@
 
 * * *
 
-``` <pre><code> <?php
+``` 
+<pre><code> <?php
 /*
 # $counter++    es igual a     $counter=$counter+1
 
@@ -32,9 +33,11 @@ echo concatenar ("Hola"," que tal");
 
 ?>
 
--------------------------------------------------
 
-``` <pre><code> <?php
+
+
+
+<?php
 
 #SCOPE:
 $a = 3;
