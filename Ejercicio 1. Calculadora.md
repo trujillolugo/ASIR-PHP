@@ -35,14 +35,14 @@
 		<input type="submit" value="enviar">
 	</form>
 	</body>
-  </html> </code></pre> ```
+  </html> </code></pre> 
+```
   
   ## CÓDIGO DE PHP
   
   --------------------------------------------------
   
-  ```
-  <?php
+  ``` <?php
 	$operando1 = $_POST['operando1'];
 	$operando2 = $_POST['operando2'];
 	$operador = $_POST['operador'];
@@ -67,5 +67,4 @@
 	}else {
 	echo $operando1 . " NO es menor que " . $operando2;
 	}
-?>
-```
+?> ```
