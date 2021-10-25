@@ -2,7 +2,7 @@
 
 * * *
 
-<pre><code> ``` <!doctype html>
+``` <pre><code> <!doctype html>
 <html lang="es">
 	<head>
 		<title>Calculadorcita</title>
@@ -31,4 +31,4 @@
 		<input type="submit" value="enviar">
 	</form>
 	</body>
-  </html> ``` </code></pre>
+  </html> </code></pre> ```
