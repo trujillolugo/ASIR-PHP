@@ -6,7 +6,8 @@
 
 -----------------------------------
 
-``` <pre><code> <!doctype html>
+``` HTML 
+<pre><code> <!doctype html>
 <html lang="es">
 	<head>
 		<title>Calculadorcita</title>
