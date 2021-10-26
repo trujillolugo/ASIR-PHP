@@ -43,7 +43,8 @@
   
   --------------------------------------------------
   
-  ``` <?php
+ ``` PHP
+  <pre><code><?php
 	$operando1 = $_POST['operando1'];
 	$operando2 = $_POST['operando2'];
 	$operador = $_POST['operador'];
@@ -68,4 +69,5 @@
 	}else {
 	echo $operando1 . " NO es menor que " . $operando2;
 	}
-?> ```
+?></code></pre> 
+```
