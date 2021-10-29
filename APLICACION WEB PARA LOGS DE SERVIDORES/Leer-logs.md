@@ -2,7 +2,7 @@
 
 ------------------------------------------------
 
-<!DOCTYPE html>
+``` HTML <!DOCTYPE html>
 <html lang="en">
 
 <style>
@@ -94,4 +94,5 @@ if(isset($_POST['Enviar']) &&  ($_POST['opcionlog']!="nulo")){
 </fieldset>
 </body>
 </html>
+``` 
 
