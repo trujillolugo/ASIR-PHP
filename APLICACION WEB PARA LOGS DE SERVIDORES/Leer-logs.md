@@ -64,7 +64,7 @@ img {
 	
 				</form>
 
-``` PHP <?php
+<?php
 if(isset($_POST['Enviar']) &&  ($_POST['opcionlog']!="nulo")){
 	$opcionlog = $_POST['opcionlog'];
 	
@@ -89,7 +89,6 @@ if(isset($_POST['Enviar']) &&  ($_POST['opcionlog']!="nulo")){
 }
 
 ?>
-```
 
 </fieldset>
 </fieldset>
