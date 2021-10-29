@@ -4,9 +4,8 @@
 
 ``` HTML <!DOCTYPE html>
 <html lang="en">
-
 <style>
-
+	
 fieldset.cajatitulo 
 {
 padding: 5px 10px;
@@ -22,6 +21,7 @@ h2.tit {
 	margin: 50px;
 	color:#003472;
 }
+	
 body.colorfondo 
 {
 	background-color: #D18DDE;
@@ -64,7 +64,7 @@ img {
 	
 				</form>
 
-<?php
+``` PHP <?php
 if(isset($_POST['Enviar']) &&  ($_POST['opcionlog']!="nulo")){
 	$opcionlog = $_POST['opcionlog'];
 	
@@ -89,6 +89,7 @@ if(isset($_POST['Enviar']) &&  ($_POST['opcionlog']!="nulo")){
 }
 
 ?>
+```
 
 </fieldset>
 </fieldset>
